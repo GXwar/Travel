@@ -1,8 +1,17 @@
 # Travel
 
-This project is a Web App like Booking, for the purpose of practicing Vue.js
+This is a Web App like the Booking, for the purpose of practicing Vue.js
 
-There are details about the project
+## Usage
+
+```
+$ git clone https://github.com/GXwar/Travel
+$ cd Travel
+$ npm install
+$ npm run start
+```
+
+## Take a look
 
 ![HomePage](https://github.com/GXwar/Travel/raw/master/markdown/index.PNG)
 ![CitySelect](https://github.com/GXwar/Travel/raw/master/markdown/city.PNG)
