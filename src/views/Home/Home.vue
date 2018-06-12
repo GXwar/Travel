@@ -11,6 +11,7 @@
 <script>
   import axios from 'axios'
 
+  // the home page is divided to several parts
   import HomeHeader from './components/Header.vue'
   import HomeSwiper from './components/Swiper.vue'
   import HomeIcons from './components/Icons.vue'
@@ -61,6 +62,9 @@
           })
       }
     },
+    // Another way to avoid the problem brought by cache
+    // This LifeCycle hook can be only used when the keep-alive is used
+    // Detect if the city is changed, then updating the page info or not
     activated () {
       if (this.lastCity !== this.city) {
         this.lastCity = this.city

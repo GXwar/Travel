@@ -1,5 +1,7 @@
 # Travel
 
+## Description
+
 This is a Web App like the Booking, for the purpose of practicing Vue.js
 
 ## Usage
@@ -10,6 +12,12 @@ $ cd Travel
 $ npm install
 $ npm run start
 ```
+
+## Framework
+
+`/src` includes the main part of the project. And there are the details about them.
+
+`index.js` is 
 
 ## Take a look
 
